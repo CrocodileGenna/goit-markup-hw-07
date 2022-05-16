@@ -1,0 +1,59 @@
+.site-auth {
+  display: flex;
+  margin-left: auto;
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .link {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+
+    color: var(--secondary-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: var(--akcent);
+    }
+    .items {
+      display: inline-block;
+      padding: 0;
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+  }
+}
+
+/* .site-auth .item + .item {
+      margin-left: 30px;
+    } */
+
+/* .site-auth .link::before {
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+    
+      content: "";
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: auto;
+    }
+    .item-envel::before {
+      background-image: url(../images/icon.svg/envelope.svg);
+    }
+    .item-smartp::before {
+      background-image: url(../images/icon.svg/smartphone.svg);
+    } */

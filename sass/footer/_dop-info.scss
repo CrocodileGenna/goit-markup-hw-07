@@ -1,0 +1,49 @@
+.dop-info {
+  margin-left: 70px;
+  /* outline: 1px solid tomato; */
+  .main {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-wite-color);
+  }
+  .list {
+    display: flex;
+    align-items: center;
+
+    /* outline: 1px solid tomato; */
+  }
+  .item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .items {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* outline: 1px solid tomato; */
+    &:hover,
+    &:focus {
+      background-color: var(--akcent);
+    }
+  }
+  .icon {
+    margin-left: 12px;
+    margin-top: 12px;
+    fill: currentColor;
+
+    /* outline: 1px solid tomato; */
+  }
+}

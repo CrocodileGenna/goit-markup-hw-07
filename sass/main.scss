@@ -1,15 +1,25 @@
-@import "./root-information";
-@import "./header";
+@import "./root/root-information";
+//header
+@import "./header/h-and-logo";
+@import "./header/auth";
+@import "./header/nav";
 //one pages
-@import "./hero";
-@import "./work";
-@import "./photo";
-@import "./employees";
-@import "./permanent-clients";
+@import "./one-pages/hero";
+@import "./one-pages/work";
+@import "./one-pages/photo";
+@import "./one-pages/employees";
+@import "./one-pages/permanent-clients";
 //two pages
-@import "./button-two-pages";
-@import "./content-two-pages";
+@import "./two-page/button-two-pages";
+@import "./two-page/content-two-pages";
 //footer
-@import "./footer";
+@import "./footer/nav";
+@import "./footer/dop-info";
+@import "./footer/dewdrop";
 //modal-window
-@import "./modal-window";
+@import "./modal/backdrop";
+@import "./modal/modal";
+@import "./modal/modal-titlel";
+@import "./modal/modal-imput";
+@import "./modal/modal-submit";
+@import "./modal/checkbox";
