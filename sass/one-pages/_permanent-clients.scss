@@ -1,53 +1,55 @@
 .permanent-clients {
   margin-top: 94px;
   margin-bottom: 94px;
-}
 
-.permanent-clients .head-text {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-.permanent-clients .list {
-  display: flex;
-}
+  .head-text {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }
+  .list {
+    display: flex;
+  }
 
-.permanent-clients .item:not(:last-child) {
-  margin-right: 30px;
-}
-.permanent-clients .items {
-  display: inline-block;
-  padding: 0;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  color: rgba(175, 177, 184, 1);
+  // .permanent-clients .item:not(:last-child) {
+  //   margin-right: 30px;
+  // }
+  .items {
+    display: inline-block;
+    padding: 0;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: rgba(175, 177, 184, 1);
 
-  transition-property: border color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.permanent-clients .items:hover,
-.permanent-clients .items:focus {
-  color: var(--akcent);
-  border: 1px solid var(--akcent);
-}
-.permanent-clients .logos {
-  position: relative;
-  display: inline-block;
-  padding: 0;
-  width: 106px;
-  height: 60px;
-  /* margin-top: 16px;
-    margin-left: 32px; */
+    transition-property: border color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  fill: currentColor;
+    &:hover,
+    &:focus {
+      color: var(--akcent);
+      border: 1px solid var(--akcent);
+    }
+  }
 
-  /* outline: 1px solid tomato; */
+  .logos {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    width: 106px;
+    height: 60px;
+    /* margin-top: 16px;
+      margin-left: 32px; */
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: currentColor;
+
+    /* outline: 1px solid tomato; */
+  }
 }
