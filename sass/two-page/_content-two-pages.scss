@@ -56,9 +56,10 @@
         width: 322px;
         height: 168px;
 
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.56;
+        @include fond(400, 18px, 1.56, null);
+        // font-weight: 400;
+        // font-size: 18px;
+        // line-height: 1.56;
         color: #fff;
 
         top: 63px;
@@ -116,15 +117,17 @@
 
       .photo-main {
         color: var(--primery-text-cplor);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+        @include fond(700, 18px, 2, 0.06em);
+        // font-weight: 700;
+        // font-size: 18px;
+        // line-height: 2;
+        // letter-spacing: 0.06em;
       }
       .photo-secondary {
         color: var(--secondary-color);
-        font-size: 18px;
-        line-height: 1.97;
+        @include fond(null, 18px, 1.97, null);
+        // font-size: 18px;
+        // line-height: 1.97;
       }
     }
   }

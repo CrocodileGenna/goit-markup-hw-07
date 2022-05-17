@@ -5,9 +5,11 @@
 
   .head-text {
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+
+    @include fond(400, 36px, 1.16, null);
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.16;
     text-align: center;
   }
 
@@ -36,9 +38,10 @@
   .employees-main {
     padding-bottom: 10px;
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+    @include fond(500, 16px, 1.18, null);
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.18;
   }
   .employees-secondary {
     color: var(--secondary-color);

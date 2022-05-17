@@ -36,9 +36,10 @@
   width: 448px;
   height: 120px;
 
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
+  @include fond(null, 12px, 1.16, 0.01em);
+  // font-size: 12px;
+  // line-height: 1.16;
+  // letter-spacing: 0.01em;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;

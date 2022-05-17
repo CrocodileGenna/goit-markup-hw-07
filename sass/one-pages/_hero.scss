@@ -55,9 +55,11 @@
     width: 696px;
     height: 120px;
     color: var(--primary-wite-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+
+    @include fond(900, 44px, 1.36, 0.06em);
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    // letter-spacing: 0.06em;
   }
 }

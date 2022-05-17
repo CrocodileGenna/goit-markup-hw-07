@@ -12,9 +12,10 @@
   }
 
   .head-text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    @include fond(700, 36px, 1.16, null);
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.16;
     text-align: center;
   }
 
@@ -39,9 +40,10 @@
       width: 100%;
       height: 70px;
 
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.14px;
+      @include fond(700, 14px, 1.14, null);
+      // font-weight: 700;
+      // font-size: 14px;
+      // line-height: 1.14px;
       text-transform: uppercase;
       text-align: center;
       color: #fff;

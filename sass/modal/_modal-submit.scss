@@ -9,9 +9,10 @@
   height: 50px;
   border-radius: 4px;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
+  @include fond(700, 16px, 1.9, null);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.9;
 
   color: var(--primary-wite-color);
   background-color: var(--akcent);

@@ -11,9 +11,10 @@
   padding-top: 15px;
   padding-bottom: 20px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include fond(700, 14px, 1.14, null);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
   color: var(--primary-wite-color);
   text-transform: uppercase;
 }
@@ -24,8 +25,9 @@
   height: 50px;
   border-radius: 4px;
 
-  font-size: 16px;
-  line-height: 1.25;
+  @include fond(null, 16px, 1.25, null);
+  // font-size: 16px;
+  // line-height: 1.25;
   border: 1px solid var(--secondary-color);
   color: var(--primary-wite-color);
   background-color: var(--color-fon-hed-fot);
@@ -40,9 +42,10 @@
   justify-content: center;
   align-items: center;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
+  @include fond(700, 16px, 1.9, null);
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: 1.9;
 
   color: var(--primary-wite-color);
   background-color: var(--akcent);

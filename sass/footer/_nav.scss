@@ -19,8 +19,9 @@ footer {
   margin-bottom: 8px;
 
   color: #fff;
-  font-size: 14px;
-  line-height: 1.7;
+  @include fond(noll, 14px, 1.7, null);
+  // font-size: 14px;
+  // line-height: 1.7;
   text-decoration: none;
 
   transition-property: color;
@@ -38,8 +39,9 @@ footer {
   margin-bottom: 8px;
 
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.7;
+  @include fond(noll, 14px, 1.7, null);
+  // font-size: 14px;
+  // line-height: 1.7;
   text-decoration: none;
 
   transition-property: color;

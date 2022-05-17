@@ -12,10 +12,11 @@
 
     color: var(--secondary-color);
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include fond(500, 14px, 1.14, 0.02em);
+    // font-weight: 500;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.02em;
 
     transition-property: color;
     transition-duration: 250ms;

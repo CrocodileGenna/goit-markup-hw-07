@@ -13,9 +13,11 @@
       display: block;
       padding: 0;
       margin-bottom: 4px;
-      font-size: 12px;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
+
+      @include fond(null, 12px, 1.16, 0.01em);
+      // font-size: 12px;
+      // line-height: 1.16;
+      // letter-spacing: 0.01em;
       color: var(--secondary-color);
     }
     .modal-div2 {
