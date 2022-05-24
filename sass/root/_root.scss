@@ -65,8 +65,16 @@ li {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
   /* outline: 2px solid rgb(225, 169, 159); */
+  @media screen and (min-width: 1024px) {
+    max-width: 900px;
+  }
+  @media screen and (min-width: 720px) {
+    max-width: 600px;
+  }
+  @media screen and (min-width: 480px) {
+    max-width: none;
+  }
 }
 
 @mixin fond($fw, $fs, $fh, $ls) {
