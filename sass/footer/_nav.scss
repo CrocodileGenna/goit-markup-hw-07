@@ -8,9 +8,10 @@ footer {
   .logo {
     display: inline-block;
     margin-bottom: 20px;
-  }
-  .studio {
-    color: var(--primary-wite-color);
+    color: var(--akcent);
+    .footer-studio {
+      color: var(--primary-wite-color);
+    }
   }
 }
 
